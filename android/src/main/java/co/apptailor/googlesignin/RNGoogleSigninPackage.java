@@ -21,8 +21,7 @@ public class RNGoogleSigninPackage implements ReactPackage {
         modules.add(new RNGoogleSigninModule(reactContext));
         return modules;
     }
-
-    @Override
+    // Deprecated in RN v0.47.
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
